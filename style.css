@@ -1,0 +1,74 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(253, 205, 182);
+}
+
+img {
+    float: right;
+    height: 110px;
+    width: auto;
+    margin-right: 20%;
+    margin-top: -9%;
+}
+
+#CV {
+    background: #d7d7d7;
+    padding: 10px;
+    text-align: center;
+    border: 5px outset dimgray;
+}
+
+h2 {
+    margin-left: 20%;
+}
+
+#moi {
+    position: relative;
+    border: 5px outset dimgray;
+}
+
+.presentation {
+    background: #d7d7d7;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.presentation p {
+    float: right;
+    margin-top: -50px;
+    margin-right: 5%;
+}
+
+.pres {
+    list-style-type: none;
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    font-size: 30px;
+}
+
+.scoform {
+    width: 50%;
+    float: left;
+}
+
+.stage {
+    margin-left: 50%;
+}
+
+dd {
+    text-indent: 30px;
+}
+
+dt {
+    font-size: 20px ;
+    font-weight: bold;
+}
