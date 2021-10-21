@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 22px;
 }
 
 body {
     background: rgb(253, 205, 182);
+    height: 1200px;
 }
 
 img {
@@ -24,13 +26,17 @@ img {
     border: 5px outset dimgray;
 }
 
+.contact {
+    position: relative;
+    right: 500px;
+}
+
 h2 {
     margin-left: 20%;
 }
 
 #moi {
     position: relative;
-    border: 5px outset dimgray;
 }
 
 .presentation {
@@ -58,10 +64,14 @@ h3 {
 .scoform {
     width: 50%;
     float: left;
+    margin-left: 10%;
 }
 
 .stage {
     margin-left: 50%;
+    position: relative;
+    top: -500px;
+    left: 400px;
 }
 
 dd {
@@ -72,3 +82,24 @@ dt {
     font-size: 20px ;
     font-weight: bold;
 }
+
+.pro {
+    position: relative;
+    left: -1000px;
+    top: 700px;
+    margin-bottom:50px;
+}
+
+.entreprise {
+    text-indent: 25px;
+    list-style-position: inside;
+}
+
+.competence {
+    border: 3px outset dimgray;
+    position: relative;
+    top: 500px;
+    display: inline-block;
+    padding: 25px;
+}
+

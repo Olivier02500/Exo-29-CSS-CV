@@ -10,17 +10,19 @@
 <!-- titre -->
     <div id="CV">
         <h1>Curriculum vitæ</h1>
-    </div>
+
 <!-- présentation -->
     <div id="moi">
         <div class="presentation">
             <h2>Peuchet Olivier</h2>
             <ul class="pres">
-                <li>age :23 Ans</li>
-                <li>Portable : 06.05.09.25.54</li>
-                <li>Adresse : 19 rue du docteur josso</li>
-                <li> Ville : Aubenton</li>
+                <li><i class="fas fa-birthday-cake"></i> Age :23 Ans</li>
+                <li><i class="fas fa-phone"></i> Portable : 06.05.09.25.54</li>
+                <li><i class="fas fa-map-marker-alt"></i> Adresse : 19 rue du docteur josso</li>
+                <li><i class="fas fa-city"></i> Ville : Aubenton</li>
+                <li><i class="fab fa-github"></i><a href="https://github.com/Olivier02500" target="_blank"> GitHub</a></li>
             </ul>
+
             <p>Permis B</p><br>
             <p>Véhicules personnel</p>
             <img src="téléchargement.jpg" alt="moi">
@@ -28,7 +30,7 @@
 
         </div>
     </div>
-
+</div>
 <div class="scoform">
     <!-- parcours scolaire -->
         <div class="scolaire">
@@ -76,21 +78,21 @@
         <ul>
             <li>CFA La Capelle</li>
                 <ul>
-                    <li>Boulangerie Lombart : 6 Mois</li>
-                    <li>Boulangerie Au Secret du Fournil : 6 mois</li>
+                    <li class="entreprise">Boulangerie Lombart : 6 Mois</li>
+                    <li class="entreprise">Boulangerie Au Secret du Fournil : 6 mois</li>
                 </ul>
             <li>institution Saint-Pierre</li>
                 <ul>
-                    <li>Restaurant La table de Maya : 1 Mois</li>
-                    <li>Restaurant La Briqueterie : 1 Mois</li>
-                    <li>Restaurant La hulotte au loin d'or : 3 Mois</li>
-                    <li>Restaurant L'Auberge d'ecry : 1 Mois</li>
+                    <li class="entreprise">Restaurant La table de Maya : 1 Mois</li>
+                    <li class="entreprise">Restaurant La Briqueterie : 1 Mois</li>
+                    <li class="entreprise">Restaurant La hulotte au loin d'or : 3 Mois</li>
+                    <li class="entreprise">Restaurant L'Auberge d'ecry : 1 Mois</li>
                 </ul>
             <li>E2C Grand-Hainaut</li>
                 <ul>
-                    <li>Société ARVAL : 1 Mois </li>
-                    <li>Le L@BO Fourmies : 1 Mois</li>
-                    <li>Mairie d'Aubenton : 1 semaine</li>
+                    <li class="entreprise">Société ARVAL : 1 Mois </li>
+                    <li class="entreprise">Le L@BO Fourmies : 1 Mois</li>
+                    <li class="entreprise">Mairie d'Aubenton : 1 semaine</li>
                 </ul>
         </ul>
         </div>
@@ -111,9 +113,26 @@
         </dl>
     </div>
 
+    <div class="competence">
+        <div>
+            <label for="Gestion">Gestion des clients :</label>
+            <progress id="Gestion" max="100" value="80">80%</progress>
+        </div>
 
+        <div>
+            <label for="polyvalent">Polyvalent :</label>
+            <progress id="polyvalent" max="100" value="60">60%</progress>
+        </div>
 
+        <div>
+            <label for="cuisine">Techniques de cuisine :</label>
+            <progress id="cuisine" max="100" value="65">65%</progress>
+        </div>
+
+    </div>
 <script src="https://kit.fontawesome.com/ae40802ff0.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
